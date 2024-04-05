@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preload" as="image" href="/assests/hero-banner.svg">
+</head>
+<body>
+  <!-- header -->
+  <header class="header" data-header>
+    <div class="container">
+      <h1>
+        <a href="#" class="logo">EduClay</a>
+      </h1>
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-nav-link>Services</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link" data-nav-link>Features</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="btn btn-secondary">Get Started</button>
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggle-btn>
+        <i class="fa-solid fa-bars icon menu-icon"></i>
+        <i class="fa-solid fa-xmark icon close-icon"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <article>
+      <!-- hero -->
+      <section class="section hero" id="home">
+        <div class="container">
+          <figure class="hero-banner">
+            <img src="/assests/hero-banner.svg" alt="hero-banner" class="w-100"  loading="lazy">
+          </figure>
+          <div class="hero-content">
+            <h2 class="h1 hero-title">Learn The Future Way</h2>
+            <p class="section-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius blanditiis at, molestias tempore, provident nostrum temporibus ipsa quos distinctio adipisci pariatur, quasi possimus sed corrupti quis animi. Ipsum, animi blanditiis.
+            </p>
+
+            <form action="" class="hero-form">
+              <input type="email" name="email_address" placeholder="Enter Your Email" aria-label="Enter Your Email" required class="input-field">
+              <button type="submit" class="btn btn-primary">Start Free Trial</button>
+            </form>
+
+            <ul class="hero-list">
+              <li class="hero-item">
+                <img src="/assests/check-circle.svg" alt="Checkmark icon" width="16" height="16" loading="lazy">
+                <span class="span">One to One Session</span>
+              </li>
+              <li class="hero-item">
+                <img src="/assests/check-circle.svg" alt="Checkmark icon" width="16" height="16" loading="lazy">
+                <span class="span">Community</span>
+              </li>
+              <li class="hero-item">
+                <img src="/assests/check-circle.svg" alt="Checkmark icon" width="16" height="16" loading="lazy">
+                <span class="span">Best Practices</span>
+              </li>
+              <li class="hero-item">
+                <img src="/assests/check-circle.svg" alt="Checkmark icon" width="16" height="16" loading="lazy">
+                <span class="span">Unlimited Resources</span>
+              </li>
+              <li class="hero-item">
+                <img src="/assests/check-circle.svg" alt="Checkmark icon" width="16" height="16" loading="lazy">
+                <span class="span">Certifications</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- service -->
+      <section class="section service" id="services">
+        <div class="container">
+          <h2 class="h2 section-title">
+            Courses
+          </h2>
+          <p class="section-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro commodi facilis at neque eaque nesciunt omnis ullam quae aliquid! Doloremque.
+          </p>
+          <ul class="service-list">
+            <li>
+              <div class="service-card">
+                <figure class="card-banner">
+                  <img src="/assests/service-1.gif" alt="support" width="728" height="344" loading="lazy" class="w-100">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Figma for Beginner</a>
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut repellendus deleniti earum laboriosam suscipit aliquam provident, id voluptate minus. Debitis ipsa suscipit sint nihil porro aspernatur, sunt reiciendis nam dolorem?
+                  </p>
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <figure class="card-banner">
+                  <img src="/assests/service-2.gif" alt="engagement" width="728" height="344" loading="lazy" class="w-100">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">3D Animation</a>
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut repellendus deleniti earum laboriosam suscipit aliquam provident, id voluptate minus. Debitis ipsa suscipit sint nihil porro aspernatur, sunt reiciendis nam dolorem?
+                  </p>
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+                <figure class="card-banner">
+                  <img src="/assests/service-3.gif" alt="marketing" width="728" height="344" loading="lazy" class="w-100">
+                </figure>
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Common Design Practice</a>
+                  </h3>
+                  <p class="card-text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut repellendus deleniti earum laboriosam suscipit aliquam provident, id voluptate minus. Debitis ipsa suscipit sint nihil porro aspernatur, sunt reiciendis nam dolorem?
+                  </p>
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- features -->
+      <section class="section features" id="features">
+        <div class="container">
+          <div class="features-content">
+            <h2 class="h2 section-title">Our Awesome Features To Serve You</h2>
+            <p class="section-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, temporibus! Tempora temporibus ipsa assumenda consequatur amet totam mollitia fuga laboriosam culpa, dolorem excepturi est explicabo! Dolores aut ducimus iste numquam.</p>
+            <ul class="features-list">
+              <li class="features-item">
+                <img src="/assests/features-icon-1.svg" alt="icon" class="item-icon" width="26" height="26" loading="lazy" aria-hidden="true">
+                <h3 class="item-title">Build in Public</h3>
+              </li>
+              <li class="features-item">
+                <img src="/assests/features-icon-2.svg" alt="icon" class="item-icon" width="26" height="26" loading="lazy" aria-hidden="true">
+                <h3 class="item-title">Job Portal</h3>
+              </li>
+              <li class="features-item">
+                <img src="/assests/features-icon-3.svg" alt="icon" class="item-icon" width="26" height="26" loading="lazy" aria-hidden="true">
+                <h3 class="item-title">Resume Building</h3>
+              </li>
+              <li class="features-item">
+                <img src="/assests/features-icon-4.svg" alt="icon" class="item-icon" width="26" height="26" loading="lazy" aria-hidden="true">
+                <h3 class="item-title">Projects</h3>
+              </li>
+            </ul>
+
+          </div>
+
+          
+          <div class="banner-wrapper">
+
+            <figure class="features-banner one">
+              <img src="/assests/features-banner-1.gif" width="600" height="500" loading="lazy"
+                alt="features image" class="w-100">
+            </figure>
+
+            <figure class="features-banner two">
+              <img src="/assests/features-banner-2.png" width="436" height="311" loading="lazy"
+                alt="features image" class="w-100">
+            </figure>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- about -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <h2 class="h2 section-title">What We Do</h2>
+
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet nulla duis ac. Id massa scelerisque
+            venenatis,
+            massa gravida donec orci.
+          </p>
+
+          <ul class="about-list">
+
+            <li>
+              <div class="about-card about-card-1">
+
+                <figure class="card-banner">
+                  <img src="/assests/about-img-1.svg" width="94" height="94" loading="lazy"
+                    alt="learn-grow">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Learn and Grow</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consect etur adipiscing elit.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-2">
+
+                <figure class="card-banner">
+                  <img src="/assests/about-img-2.svg" width="94" height="94" loading="lazy"
+                    alt="Quality Content">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Quality Content</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consect etur adipiscing elit.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-3">
+
+                <figure class="card-banner">
+                  <img src="/assests/about-img-3.svg" width="94" height="94" loading="lazy"
+                    alt="Boost Applications">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Boost Applications</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consect etur adipiscing elit.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-4">
+
+                <figure class="card-banner">
+                  <img src="/assests/about-img-4.svg" width="94" height="94" loading="lazy"
+                    alt="online">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Build Online Profile</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet, consect etur adipiscing elit.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    <span class="span">Learn More</span>
+                    <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="section-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget gravida facilisis maecenas vitae.
+            <a href="#" class="btn-link">
+              <span class="span">View All Features</span>
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+          </p>
+
+        </div>
+      </section>
+
+<!-- stats -->
+
+      <section class="section stats">
+        <div class="container">
+
+          <figure class="stats-banner">
+            <img src="/assests/stats-banner.png" width="619" height="482" loading="lazy" alt="stats"
+              class="w-100">
+          </figure>
+
+          <ul class="stats-list">
+
+            <li class="stats-item purple">
+              <h3 class="item-title">
+                386
+                <span class="span">million</span>
+              </h3>
+
+              <p class="stats-text">Human Actions Saved On EduClay</p>
+            </li>
+
+            <li class="stats-item red">
+              <h3 class="item-title">
+                999
+                <span class="span">million</span>
+              </h3>
+
+              <p class="stats-text">Users Throughout The World</p>
+            </li>
+
+            <li class="stats-item green">
+              <h3 class="item-title">
+                200
+                <span class="span">courses</span>
+              </h3>
+
+              <p class="stats-text">Growth Unlimited</p>
+            </li>
+
+            <li class="stats-item yellow">
+              <h3 class="item-title">
+                5000
+                <span class="span">mentors</span>
+              </h3>
+
+              <p class="stats-text">Choose Right With EduClay</p>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+<!-- app -->
+
+      <section class="section app">
+        <div class="container">
+
+          <div class="app-content">
+
+            <h2 class="h2 section-title">Download Mobile App To Stay Connected</h2>
+
+            <p class="section-text">
+              EduClay Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque sapiente eos porro placeat, nisi maiores aperiam tempore cupiditate autem totam.
+            </p>
+
+            <div class="btn-group">
+
+              <a href="#" class="btn btn-primary">
+                <img src="/assests/play-store.svg" width="30" height="31" loading="lazy" alt="play store icon">
+
+                <span class="span">
+                  GET IT ON
+                  <strong class="strong">Google Play</strong>
+                </span>
+              </a>
+
+              <a href="#" class="btn btn-secondary">
+                <img src="/assests/apple-store.svg" width="30" height="31" loading="lazy" alt="apple store icon">
+
+                <span class="span">
+                  GET IT ON
+                  <strong class="strong">Apple Store</strong>
+                </span>
+              </a>
+
+            </div>
+
+          </div>
+
+          <figure class="app-banner">
+            <img src="/assests/apple-store.svg" width="748" height="536" loading="lazy" alt="app screenshot"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+<!-- support -->
+      <section class="section support">
+        <div class="container">
+
+          <div class="support-content">
+            <h2 class="h2 section-title">24/7 Customer Support</h2>
+
+            <p class="section-text">
+              Our team is here to provide you with personalized and outstanding service. We also offer a range of
+              self-learning tools
+              in our support center:
+            </p>
+          </div>
+
+          <a href="#" class="btn btn-primary">Contact Us Now</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+<!-- footer -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+          <a href="#" class="logo">Techx</a>
+
+          <figure class="footer-img">
+            <img src="/assests/footer-img.png" width="264" height="226" loading="lazy" aria-hidden="true"
+              class="w-100">
+          </figure>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Courses</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Tutorials</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Mentor</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Resources</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">One To One Session</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Quick Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Pricing Plan</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Download Apps</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+            <img src="/assests/contact-icon-1.svg" width="16" height="16" loading="lazy" aria-hidden="true">
+
+            <span class="span">
+              Call Us:
+              <a href="tel:+987654321" class="footer-item-link">+(888) 444-1234</a>
+            </span>
+          </li>
+
+          <li class="footer-item">
+            <img src="/assests/contact-icon-2.svg" width="16" height="16" loading="lazy" aria-hidden="true">
+
+            <span class="span">
+              Address: <br>
+              1234 Elm Street <br>
+              Springfield, Anytown 54321 <br>United States
+              <a href="#" class="footer-item-link"></a>
+            </span>
+          </li>
+
+          <li class="footer-item">
+            <img src="/assests/contact-icon-3.svg" width="16" height="16" loading="lazy" aria-hidden="true">
+
+            <span class="span">
+              Mail Us:
+              <a href="mailto:random@EduClay.com" class="footer-item-link">random@EduClay.com</a>
+            </span>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 <span class="span">EduClay</span>. All rights reserved by <a href="#"
+            class="copyright-link">EduClay</a>
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Security</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+<!-- back to top -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <i class="fa-solid fa-arrow-up"></i>
+  </a>
+
+
+
+
+
+
+
+  <script src="/script.js" defer></script> 
+</body>
+</html>
